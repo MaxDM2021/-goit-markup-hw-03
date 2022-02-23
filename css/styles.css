@@ -48,7 +48,7 @@ ul {
     padding: 0;   
 }
 
-.container {
+/* .container {
     
     margin-left: auto;
     margin-right: auto;
@@ -60,16 +60,45 @@ ul {
     width: 1200px;
     outline: 2px solid tomato;
    
+} */
+
+.section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-top: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    outline: 2px solid tomato;
 }
+
 
 /* --HEADER/FOOTER-- */
 
-.page-header .container{
-
+.page-header {
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
     padding-top: 0;
     padding-bottom: 0px;
-    
+     padding-left: 15px;
+ padding-right: 15px;
+    outline: 2px solid tomato;
 }
+
+.footer {
+    width: 1200px;
+margin-left: auto;
+margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+padding-right: 15px;
+outline: 2px solid tomato;
+
+}
+
 
  .main-nav {
     display: flex;
@@ -101,17 +130,11 @@ text-decoration: none;
     
 }
 
-.footer .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 30px;
-  
-}
+
 
 .footer .container.studio {
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 30px;
     margin-top: 0px;
 }
 
@@ -196,9 +219,12 @@ color: var(--accent-color);
 }
 
 .footer .address {
-
+width: auto;
 margin-top: 20px;
-
+margin-right: 0px;
+padding-right: 0px;
+padding-left: 0;
+outline: none;
 color: var(--title-text-color);
     
 }
@@ -219,7 +245,7 @@ text-decoration: none;
 
 
 padding-top: 200px;
-padding-bottom: 280px;
+padding-bottom: 200px;
 
 background-color: var(--primary-background-color);
 text-align: center;
@@ -371,7 +397,7 @@ padding: 0;
 }
 
 
-.persone h3{
+.name {
 
 margin-top: 0px;
 margin-bottom: 0px;
@@ -380,13 +406,18 @@ padding-top: 30px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-text-align: center;s
+text-align: center;
 
 }
 
+h3 {
+    margin-top: 0px;
+margin-bottom: 0px;
+}
 
 .proffesion {
 margin-top: 0px;
+margin-bottom: 0px;
 padding-top: 10px;
 
 
@@ -464,11 +495,19 @@ border: 1px solid #EEEEEE;
 } */
 
 
+.data-product{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
 .product-titel {
 
 margin-top: 0px;
 margin-bottom: 0px;
-padding-left: 24px;
+
 
 
 font-weight: 700;
@@ -482,7 +521,7 @@ letter-spacing: 0.06em;
 
 margin-top: 4px;
 margin-bottom: 0px;
-padding-left: 24px;
+
 
 color: var(--second-text-color);
 font-size: 16px;
