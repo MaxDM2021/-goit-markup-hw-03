@@ -12,7 +12,6 @@ body {
     margin: 0;
 }
 
-
 /* основной цвет текста черный #212121 */
 /* вторичный цвет текста серый #757575 */
 /* белый #FFFFFF */
@@ -67,8 +66,11 @@ ul {
   
 }
 
-
 /* --HEADER-- */
+
+.header {
+    border-bottom : 2px solid var(--second-backrgound-color); 
+}
 
 .page-header {
 width: 1200px;
@@ -86,7 +88,6 @@ justify-content: flex-start;
 }
 
 .logo-header {
-
 margin-right: 93px;
 padding-top: 24px;
 padding-bottom: 24px;
@@ -368,19 +369,6 @@ padding: 0;
     height: auto;
 }
 
-/* .name {
-
-margin-top: 0px;
-margin-bottom: 0px;
-padding-top: 30px;
-
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-
-} */
-
 .persone-data {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -389,21 +377,18 @@ text-align: center;
 }
 
 h3 {
-    margin-top: 0px;
+margin-top: 0px;
 margin-bottom: 0px;
 text-align: center;
 
 font-family: Roboto, sans-serif;
-
-
 }
 
 .proffesion {
+
 margin-top: 10px;
 margin-bottom: 0px;
 padding-top: 0px;
-
-
 
 color: var(--second-text-color);
 font-family: Roboto, sans-serif;
@@ -416,8 +401,6 @@ text-align: center;
 .section-team {
     display: flex;
     flex-wrap: wrap;
-    /* padding-top: 50px; */
-    
 }
 
 
@@ -432,16 +415,13 @@ text-align: center;
 /* --FOOTER-- */
 
 .footer {
-   /* width: 1200px; */
    margin-left: auto;
    margin-right: auto;
    padding-top: 60px;
    padding-bottom: 60px;
-/* 
-   padding-top: 0px; */
-   /* padding-bottom: 0px; */
+
    background-color: var(--primary-background-color);
-   /* outline: 2px solid tomato; */
+  
 }
 
  .logo-footer {
@@ -450,7 +430,6 @@ text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
 
-   
 font-family: Raleway;
 font-weight: bold;
 font-size: 26px;
@@ -459,16 +438,9 @@ text-decoration: none;
     
 }
 
-/* .footer .logo {
-    background-color: var(--primary-background-color);
-  width: auto;
-} */
-
 .section.footer .studio {
     width: 1200px;
     padding-left: 15px;
-    /* padding-top: 60px;
-    padding-bottom: 60px; */
     outline: 2px solid tomato; 
 
     font-style: normal;
@@ -476,7 +448,6 @@ text-decoration: none;
     line-height: 1.71;
 
 }
-
 
 .footer .address {
 width: auto;
@@ -487,6 +458,7 @@ padding-bottom: 0;
 padding-right: 0px;
 padding-left: 0;
 outline: none;
+
 color: var(--title-text-color);
 font-style: normal;
 text-decoration: none;
@@ -495,6 +467,7 @@ text-decoration: none;
 .footer-contacts {
 display: block;
 margin-top: 9px;
+
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 text-decoration: none;    
@@ -509,29 +482,24 @@ color: var(--title-text-color)
 
 /* --FOOTER END-- */
 
-
-
 /* --PORTFOLIO-- */
-
 
 
 .nav-button {
     width: 100%;
-   
 }
 
 .nav-button .site-nav-button {
     text-align: center;  
     list-style: none;
 }
+
 .nav-button .item {
     display: inline-block;
 }
 
-
 .site-nav-button .item:not(:last-child) {
     margin-right: 8px;
-
 }
 
 .site-nav-button {
@@ -540,19 +508,16 @@ color: var(--title-text-color)
 }
 
 .site-nav-list {
-     display: flex;
-     flex-wrap: wrap;
-     
-     
-     
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .site-nav-link {
 margin-right: 26px;
 margin-bottom: 30px;
 border: 1px solid #EEEEEE;
-
 }
+
 .site-nav-link:nth-child(3n) {
     margin-right: 0px;
 }
@@ -571,8 +536,7 @@ border: 1px solid #EEEEEE;
 .data-product{
     padding-top: 20px;
     padding-bottom: 20px;
-    /* padding-left: 24px; */
-    /* padding-right: 24px; */
+    
 }
 
 .product-data {
@@ -581,29 +545,28 @@ border: 1px solid #EEEEEE;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.product-titel {
-    
-   text-align: initial;
 
+.product-titel {
+   text-align: initial;
+   font-family: Roboto, sans-serif ;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-
 }
 
 .product {
-    /* padding-left: 24px; */
+   
 margin-top: 4px;
 margin-bottom: 0px;
 
-
+font-family: Roboto, sans-serif ;
 color: var(--second-text-color);
+font-style: normal;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 }
-
-
 
 /* --PORTFOLIO END-- */
 
