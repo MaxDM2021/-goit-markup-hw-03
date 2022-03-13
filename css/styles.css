@@ -104,8 +104,7 @@ text-decoration: none;
     color: var(--accent-color);
     
 }
-.site-nav {
-margin-right: 349px; }
+
 
 
 .site-nav-header {
@@ -150,9 +149,7 @@ color: var(--accent-color);
 .nav-contacts {
 
 display: flex;
-
-/* margin-left: auto; */
-
+margin-left: auto;
 }
 
 /* .nav-contacts .contacts + .contacts {
@@ -380,8 +377,15 @@ h3 {
 margin-top: 0px;
 margin-bottom: 0px;
 text-align: center;
-
 font-family: Roboto, sans-serif;
+
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+
 }
 
 .proffesion {
@@ -394,7 +398,8 @@ color: var(--second-text-color);
 font-family: Roboto, sans-serif;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
+letter-spacing: 0.03em;
 text-align: center;
 }
 
